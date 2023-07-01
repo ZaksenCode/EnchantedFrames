@@ -15,7 +15,6 @@
   "environment": "server",
   "entrypoints": {
     "client": [
-      "org.zaksen.enchframe.client.EnchantedFramesClient"
     ],
     "main": [
       "org.zaksen.enchframe.EnchantedFrames"
