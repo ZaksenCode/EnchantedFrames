@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "enchframe",
+  "version": "${version}",
+  "name": "EnchantedFrames",
+  "description": "",
+  "authors": [
+    "Zaksen_"
+  ],
+  "contact": {
+    "repo": "https://github.com/mezola/EnchantedFrames"
+  },
+  "license": "MIT",
+  "icon": "assets/enchframe/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+      "org.zaksen.enchframe.client.EnchantedFramesClient"
+    ],
+    "main": [
+      "org.zaksen.enchframe.EnchantedFrames"
+    ]
+  },
+  "mixins": [
+    "enchframe.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
